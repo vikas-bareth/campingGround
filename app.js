@@ -28,7 +28,6 @@ const reviewRoutes = require('./routes/reviews')
 const userRoutes = require('./routes/users')
 
 const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/campingGrounds';
-console.log(dbUrl);
 const MongoStore = require('connect-mongo');
 const { Store } = require('express-session');
 
